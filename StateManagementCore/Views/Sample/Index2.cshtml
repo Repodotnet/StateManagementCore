@@ -1,0 +1,12 @@
+﻿
+@{
+    ViewData["Title"] = "Index2";
+}
+
+<h1>Index2</h1>
+<p>
+    Name: @{
+    TempData["Name"].ToString();
+    TempData.Keep();
+            }
+</p>
